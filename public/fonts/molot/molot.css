@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Molot';
+    src: url('molot.eot');
+    src: url('molot.eot?#iefix') format('embedded-opentype'),
+         url('molot.woff') format('woff'),
+         url('molot.ttf') format('truetype'),
+         url('molot.svg#molotregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

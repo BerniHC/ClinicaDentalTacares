@@ -1,0 +1,106 @@
+@charset "utf-8";
+@import url('bootstrap.min.css');
+@import url('jasny-bootstrap.min.css');
+@import url('font-awesome.min.css');
+
+@import url('components.min.css');
+
+/* CSS Document */
+html, body {
+    width: 100%;
+    height: 100%;
+}
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+.push {
+    width: 100%;
+    height: 60px;
+    clear: both;
+}
+.container,
+.container-fluid {
+    height: 100%;
+}
+.footer {
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: -50px;
+}
+
+/* Navmenu */
+body {
+    padding-top: 50px;
+    background: url(../images/bg.jpg) center center;
+}
+.navmenu {
+  padding-top: 60px;
+  background-image: url(../images/ucr-so-logo.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+.navmenu-inverse, 
+.navbar-inverse .navbar-offcanvas {
+    background-color: #39c;
+    border-color: #39c;
+}
+.navmenu-inverse .navmenu-nav > .dropdown > a .caret {
+    border-top-color: #eee;
+    border-bottom-color: #eee;
+}
+.navmenu-inverse .navmenu-brand, 
+.navbar-inverse .navbar-offcanvas .navmenu-brand {
+    color: #eee;
+}
+.navmenu-inverse .navmenu-nav > li > a {
+    color: #eee;
+}
+.navmenu-inverse .navmenu-nav > li > a:hover {
+    background-color: #5CADD6;
+}
+.navmenu-inverse .navmenu-nav > li > a > .fa {
+    width: 20px;
+    margin-right: 5px;
+}
+.navmenu-inverse .navmenu-nav.dropdown-menu {
+    background-color: #5CADD6;
+}
+.navmenu-inverse .navmenu-nav > .open > a {
+    background-color: #5CADD6;
+}
+.navmenu-inverse .navmenu-nav > .open > a:focus {
+    background-color: #5CADD6;
+}
+.navmenu-inverse .navmenu-nav.dropdown-menu > .divider {
+    background-color: #39c;
+}
+.navmenu-inverse .navmenu-nav .dropdown-header {
+    color: #ccc;
+}
+/* Login Form */
+#login-form {
+    background: rgba(255,255,255,0.8);
+    -webkit-box-shadow: 0 0 5px #333;
+    -moz-box-shadow: 0 0 5px #333;
+    box-shadow: 0 0 5px #333;
+    padding: 50px 20px;
+}
+#login-form label. {
+    color: #212121;
+}
+#login-form input. {
+    background: rgba(255,255,255,.6);
+    border-color: white;
+}
+#login-form input:focus. {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background: rgba(255,255,255,.4);
+}
+#login-form a. {
+    color: white;
+}
